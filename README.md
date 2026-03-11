@@ -35,4 +35,4 @@ Dark / Light Theme Toggle
 
 ## Notes
 
-No backend used. Data is mocked.
+No backend used. mocked Data is used and example otp is 123456
