@@ -17,15 +17,22 @@ React JS
 ## Features
 
 Responsive UI
+
 Sidebar Navigation
+
 Dashboard
+
 Authentication Screens
-Char
+
+Simple validations
+
 Product List & Product Detail Modal
+
 Pagination for Product/List View
+
 Dark / Light Theme Toggle
 
 
 ## Notes
 
-No backend used. Data is mocked and not added authentication logic 
+No backend used. Data is mocked.
