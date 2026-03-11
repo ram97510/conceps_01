@@ -1,0 +1,129 @@
+
+.sidebar {
+  width: 160px;
+  height: 100vh;
+  background: #eceff5;
+  color: #333;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  position: fixed; 
+  left: 0;
+  top: 0;
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+}
+
+
+/* Active Link Styling */
+.sidebar a.active {
+  /* background-color: #60a5fa;  */
+  /* color: white;              */
+  /* box-shadow: 0 4px 12px rgba(96, 165, 250, 0.3); */
+  border-bottom: 2px solid #1e293b;
+}
+
+.sidebar a:hover:not(.active) {
+  background: #eceff5;
+  color: #64748b;
+  transform: translateX(5px);
+  border-bottom: 2px solid #1e293b;
+}
+
+/* Optional: Add a small vertical indicator bar on the left of the active item */
+/* .sidebar a.active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 30px;
+  width: 4px;
+  background-color: #1d4ed8;
+  border-radius: 0 4px 4px 0;
+} */
+
+.sidebar-logo h2 {
+  margin-bottom: 40px;
+  color: #1e293b;
+  font-size: 1.5rem;
+}
+
+.sidebar-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar a {
+  color: #64748b;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.sidebar a svg {
+  font-size: 1.3rem;
+}
+
+.sidebar a:hover {
+  background: #ffffff;
+  color: #60a5fa;
+  transform: translateX(5px);
+}
+
+/* Mobile Toggle Button (Hidden on Desktop) */
+.mobile-menu-icon {
+  display: none;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 1.8rem;
+  background: #eceff5;
+  border: none;
+  cursor: pointer;
+  z-index: 1100;
+  padding: 8px;
+  border-radius: 5px;
+  color: #333;
+}
+
+/* --- Responsive Queries --- */
+
+/* Tablet and Mobile (Screens smaller than 768px) */
+@media (max-width: 768px) {
+  .mobile-menu-icon {
+    display: block; /* Show the hamburger button */
+  }
+
+  .sidebar {
+    transform: translateX(-100%); /* Hide sidebar off-screen */
+    width: 280px;
+  }
+
+  .sidebar.open {
+    transform: translateX(0); /* Slide in when open */
+  }
+
+  .sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 999;
+  }
+}
+
+/* Adjustment for very small phones */
+@media (max-width: 480px) {
+  .sidebar {
+    width: 80%; /* Takes up more screen on small phones */
+  }
+}

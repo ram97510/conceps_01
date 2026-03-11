@@ -1,0 +1,37 @@
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 24px;
+  padding: 20px 0;
+}
+
+.addpro-btn{
+    margin-left: 20px !important;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  transition: transform 0.2s;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.card-image-container img {
+  width: 150px; 
+  height: 150px;
+  /* object-fit: contain; Prevents stretching */
+}
+
+
+.badge-discount {
+  background: #ff4d4f;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 4px;
+  position: absolute;
+  top: 10px; right: 10px;
+}

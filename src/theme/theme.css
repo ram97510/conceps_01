@@ -1,0 +1,160 @@
+.light{
+background:#f9fafb;
+color:#111827;
+}
+
+.dark{
+background:#111827;
+color:white;
+}
+
+.dark .card{
+background:#1f2937;
+}
+
+.dark .sidebar{
+    background:#1f2937;
+color:white;
+border:1px solid #444;
+}
+
+.dark Link{
+    background:#1f2937;
+color:white;
+border:1px solid #444;
+}
+
+.dark input{
+background:#1f2937;
+color:white;
+border:1px solid #444;
+}
+
+.dark select{
+background:#1f2937;
+color:white;
+border:1px solid #444;
+}
+
+.dark textarea{
+background:#1f2937;
+color:white;
+border:1px solid #444;
+}
+
+.dark .dashboard-grid{
+    background:#1f2937;
+color:white;
+border:1px solid #444;
+}
+
+.dark .promo-content{
+    background:#1f2937;
+color:white;
+/* border:1px solid #444; */
+}
+.dark .social-grid{
+    background:#1f2937;
+color:white;
+/* border:1px solid #444; */
+}
+.dark .stat-card{
+    background:#1f2937;
+color:white;
+border:1px solid #444;
+}
+.dark .main-content{
+    background:#1f2937;
+color:white;
+border:1px solid #444;
+}
+
+.dark .promo-banner{
+    background:#1f2937;
+color:white;
+border:1px solid #444;
+}
+
+.dark .header-left h1{
+color:white;
+}
+
+.dark .table-container{
+     background:#1f2937;
+color:white;
+}
+
+.dark .toggle{
+    background: transparent;
+color:white;
+border:none;
+}
+
+.dark .sidebar-logo h2 {
+     background:#1f2937;
+color:white;
+}
+
+.dark .sidebar a{
+    background:#1f2937;
+color:rgb(197, 197, 197);
+}
+
+.dark h2{
+     background:#1f2937;
+color:rgb(197, 197, 197);
+}
+
+.dark .product-card{
+    background:#1f2937;
+color:rgb(197, 197, 197);
+}
+.dark .modal-drawer{
+   background:#1f2937;
+color:rgb(197, 197, 197); 
+}
+.dark .auth-container{
+   background:#1f2937;
+color:rgb(197, 197, 197); 
+}
+
+.dark .auth-card{
+   background:#1f2937;
+color:rgb(197, 197, 197); 
+border:1px solid #444;
+}
+
+.dark label{
+   /* background:#1f2937; */
+color:rgb(197, 197, 197); 
+}
+.dark .social-btn{
+   background:#1f2937;
+color:rgb(197, 197, 197); 
+}
+
+.dark .signup-container{
+   background:#1f2937;
+color:rgb(197, 197, 197); 
+}
+.dark .signup-card{
+   background:#1f2937;
+color:rgb(197, 197, 197); 
+border:1px solid #444;
+}
+
+.dark .sidebar a.active {
+
+  border-bottom: 1px solid #93bcff;
+}
+
+.dark .sidebar a:hover:not(.active) {
+  background:#1f2937;
+color:rgb(197, 197, 197); 
+  /* transform: translateX(5px); */
+  border-bottom: 2px solid #93bcff;
+}
+
+.dark .user-name, .dept-name{
+    color: #aab7fb;
+}

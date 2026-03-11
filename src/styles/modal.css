@@ -1,0 +1,29 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(2px);
+  display: flex;
+  justify-content: flex-end; 
+  z-index: 1000;
+}
+
+.modal-drawer {
+  width: 100%;
+  max-width: 450px;
+  background: white;
+  height: 100vh;
+  padding: 30px;
+  overflow-y: auto;
+  animation: slideIn 0.3s ease-out;
+}
+
+.drawer-image-box img {
+  width: 180px; 
+  height: auto;
+}
+
+@keyframes slideIn {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}

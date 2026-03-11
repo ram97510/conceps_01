@@ -1,0 +1,47 @@
+/* Tablet */
+@media (max-width:1024px){
+
+.sidebar{
+width:200px;
+}
+
+.content{
+margin-left: 235px !important;
+}
+
+}
+
+/* Mobile */
+@media (max-width:768px){
+
+.layout{
+flex-direction:column;
+}
+
+.sidebar{
+width:100%;
+flex-direction:row;
+justify-content:space-around;
+}
+
+.content{
+padding:16px;
+margin-left: 0px !important;
+padding-top: 100px !important;
+}
+
+}
+
+/* Small Mobile */
+
+@media (max-width:480px){
+
+.cards{
+grid-template-columns:1fr;
+}
+
+.product-grid{
+grid-template-columns:1fr;
+}
+
+}
