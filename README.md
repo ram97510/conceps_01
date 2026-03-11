@@ -13,6 +13,7 @@ React JS
 
 1. npm install (if you have any installation error using "npm install --force" )
 2. npm run dev
+3. After successfully run the project access the URL http://localhost:5173/
 
 ## Features
 
